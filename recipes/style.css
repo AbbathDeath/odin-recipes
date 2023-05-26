@@ -1,0 +1,31 @@
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container {
+  margin-left: 200px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+.ingredients-item {
+  margin-left: -20px;
+  height: 50px;
+}
+
+.ingredients-item::marker {
+  color: orangered;
+}
+
+.steps-item {
+  list-style: none;
+  margin-left: -40px;
+}
