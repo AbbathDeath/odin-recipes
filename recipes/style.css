@@ -1,24 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
-  margin: 0;
 }
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .container {
-  margin-left: 200px;
+  width: 900px;
+  margin: 0 auto;
 }
 
+.recipe-description {
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 30px;
+}
 h2 {
   font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 .ingredients-item {
   margin-left: -20px;
-  height: 50px;
+  padding-bottom: 20px;
 }
 
 .ingredients-item::marker {
@@ -28,4 +41,5 @@ h2 {
 .steps-item {
   list-style: none;
   margin-left: -40px;
+  padding-bottom: 20px;
 }
